@@ -8,3 +8,6 @@ F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\bin\Debug\Newtonsoft.Json
 F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\obj\Debug\esSearchEngine.csprojResolveAssemblyReference.cache
 F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\obj\Debug\esSearchEngine.exe
 F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\obj\Debug\esSearchEngine.pdb
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine.Test\bin\Debug\esSearchEngine.exe.config
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine.Test\obj\Debug\esSearchEngine.exe
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine.Test\obj\Debug\esSearchEngine.pdb
