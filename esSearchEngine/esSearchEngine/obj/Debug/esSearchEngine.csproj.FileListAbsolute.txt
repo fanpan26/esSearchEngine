@@ -1,0 +1,10 @@
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\bin\Debug\esSearchEngine.exe.config
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\bin\Debug\esSearchEngine.exe
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\bin\Debug\esSearchEngine.pdb
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\bin\Debug\Macrosage.ElasticSearch.dll
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\bin\Debug\Newtonsoft.Json.dll
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\bin\Debug\Macrosage.ElasticSearch.pdb
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\bin\Debug\Newtonsoft.Json.xml
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\obj\Debug\esSearchEngine.csprojResolveAssemblyReference.cache
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\obj\Debug\esSearchEngine.exe
+F:\GitHub\esSearchEngine\esSearchEngine\esSearchEngine\obj\Debug\esSearchEngine.pdb

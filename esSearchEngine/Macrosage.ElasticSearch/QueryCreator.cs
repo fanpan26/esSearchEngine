@@ -12,7 +12,6 @@
  */
 
 using Macrosage.ElasticSearch.Core.Filters;
-using Macrosage.Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;

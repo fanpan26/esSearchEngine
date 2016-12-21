@@ -1,4 +1,4 @@
-﻿using Macrosage.Utility;
+﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ namespace Macrosage.ElasticSearch.Core.Filters
     {
         public IdsFilter Values(object[] values)
         {
-            var val = values.ToJson();
+            var val = JsonConvert.SerializeObject(values);
             Build(val);
             return this;
         }

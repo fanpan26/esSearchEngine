@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Macrosage.ElasticSearch.Core
 {
-    public class JsonBeautifier
+    internal class JsonBeautifier
     {
         private const int IndentCount = 4;
 

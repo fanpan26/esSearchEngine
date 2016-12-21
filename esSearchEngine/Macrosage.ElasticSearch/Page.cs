@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Macrosage.ElasticSearch.Core
 {
-   public class Page
+   internal class Page
     {
         public static string CreatePageAndSort(int pageIndex = 0, int pageSize = 0, Dictionary<string, string> order = null)
         {
