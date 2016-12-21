@@ -49,6 +49,7 @@
 }
 
 转换成程序：
+```c#
  Macrosage.ElasticSearch.Core.QueryCreator creator = new Macrosage.ElasticSearch.Core.QueryCreator();
             var result = creator.Filter(f =>
                                              f.Bool(b => //bool查询
@@ -61,3 +62,4 @@
                                              Size(20).//每页大小
                                              OrderByDesc("name").//姓名倒叙排序
                                              BuildBeautiful();//根据之前的条件创建查询语句
+```
