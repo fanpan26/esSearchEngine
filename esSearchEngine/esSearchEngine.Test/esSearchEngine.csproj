@@ -49,7 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Macrosage.ElasticSearch\Macrosage.ElasticSearch.csproj">
+    <ProjectReference Include="..\src\Macrosage.ElasticSearch.csproj">
       <Project>{9e497249-55c6-43d5-a94e-0a304da59332}</Project>
       <Name>Macrosage.ElasticSearch</Name>
     </ProjectReference>

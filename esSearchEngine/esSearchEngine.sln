@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esSearchEngine", "esSearchEngine\esSearchEngine.csproj", "{14480CED-A123-46F4-BA4D-CC2E63DD8799}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esSearchEngine", "esSearchEngine.Test\esSearchEngine.csproj", "{14480CED-A123-46F4-BA4D-CC2E63DD8799}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macrosage.ElasticSearch", "Macrosage.ElasticSearch\Macrosage.ElasticSearch.csproj", "{9E497249-55C6-43D5-A94E-0A304DA59332}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macrosage.ElasticSearch", "src\Macrosage.ElasticSearch.csproj", "{9E497249-55C6-43D5-A94E-0A304DA59332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

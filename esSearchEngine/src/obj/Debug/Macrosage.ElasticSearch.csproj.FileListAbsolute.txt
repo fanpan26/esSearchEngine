@@ -1,0 +1,6 @@
+F:\GitHub\esSearchEngine\esSearchEngine\src\bin\Debug\Macrosage.ElasticSearch.dll
+F:\GitHub\esSearchEngine\esSearchEngine\src\bin\Debug\Macrosage.ElasticSearch.pdb
+F:\GitHub\esSearchEngine\esSearchEngine\src\bin\Debug\Newtonsoft.Json.dll
+F:\GitHub\esSearchEngine\esSearchEngine\src\bin\Debug\Newtonsoft.Json.xml
+F:\GitHub\esSearchEngine\esSearchEngine\src\obj\Debug\Macrosage.ElasticSearch.dll
+F:\GitHub\esSearchEngine\esSearchEngine\src\obj\Debug\Macrosage.ElasticSearch.pdb
