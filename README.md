@@ -50,7 +50,7 @@
 ```
 转换成程序：
 ```c#
- Macrosage.ElasticSearch.Core.QueryCreator creator = new Macrosage.ElasticSearch.Core.QueryCreator();
+            Macrosage.ElasticSearch.Core.QueryCreator creator = new Macrosage.ElasticSearch.Core.QueryCreator();
             var result = creator.Filter(f =>
                                              f.Bool(b => //bool查询
                                              b.Must(m => //must，必须符合条件
