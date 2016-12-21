@@ -1,6 +1,23 @@
 # 模仿PlainElastic.NET做的小组件练习
 
-查询语句：
+####查询语句：
+#####简单查询
+```
+{
+    "query": {
+        "term": {
+            "bookid": 123456
+        }
+    },
+    "from": 0,
+    "size": 10
+}
+```
+转换成程序：
+```c#
+ var result = creator.Filter(f => f.Query(q => q.Term(t => t.KeyValue("bookid", 123456)))).BuildBeautiful();//.Build();
+```
+#####稍微复杂点查询
 ```
 {
     "query": {
