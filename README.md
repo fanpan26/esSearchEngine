@@ -1,7 +1,7 @@
 # 模仿PlainElastic.NET做的小组件练习
 
 查询语句：
-
+```
 {
     "query": {
         "filtered": {
@@ -47,7 +47,7 @@
         }
     }
 }
-
+```
 转换成程序：
 ```c#
  Macrosage.ElasticSearch.Core.QueryCreator creator = new Macrosage.ElasticSearch.Core.QueryCreator();
