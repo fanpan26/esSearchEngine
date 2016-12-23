@@ -104,6 +104,21 @@ namespace Macrosage.ElasticSearch.Core
         }
         #endregion
 
+        #region 高亮
+
+        public QueryCreator HighLightAll(string[] fields, string pretags, string posttags)
+        {
+            return this;
+        }
+
+        public QueryCreator HighLightFields(string[] fileds, string[] pretags, string[] posttags)
+        {
+            return this;
+        }
+
+
+        #endregion
+
         #region 构建查询语句
         public string Build()
         {
@@ -123,10 +138,17 @@ namespace Macrosage.ElasticSearch.Core
             if (string.IsNullOrEmpty(_condition)) {
                 _condition = Filter(x => x.Query(q => q.MatchAll())).ToString();
             }
+            if (_sort.Count == 0) {
+                _sort.Add("_score", "desc");//默认排序
+            }
             var pager = Core.Page.CreatePageAndSort(_index, _size, _sort);
 
-            _condition += pager;
-            _condition += ConditionConst._rightBracket;
+            StringBuilder str = new StringBuilder();
+            str.Append(_condition);
+            str.Append(pager);
+            str.Append(ConditionConst._rightBracket);
+            _condition = str.ToString();
+
             if (beauty)
             {
                 _condition = JsonBeautifier.Beautify(_condition);

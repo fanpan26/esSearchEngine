@@ -32,8 +32,19 @@ namespace esSearchEngine
 
             //简单查询
             //var result = creator.Filter(f => f.Query(q => q.Term(t => t.KeyValue("bookid", 123456)))).BuildBeautiful();//.Build();
-           // var result = creator.Filter(f => f.Bool(b => b.And(a => a.Term(t => t.KeyValue("bookid", 123456))))).BuildBeautiful();
-            var result = creator.Filter(f => f.Bool(b => b.Must(m => m.And(a => a.Term(t => t.KeyValue("k1", 1).KeyValue("k2", 2).KeyValue("k3", 3)).And(a1 => a1.Term(t1 => t1.KeyValue("c1", 1).KeyValue("c2", 2))))))).BuildBeautiful();
+            // var result = creator.Filter(f => f.Bool(b => b.And(a => a.Term(t => t.KeyValue("bookid", 123456))))).BuildBeautiful();
+            //var result = creator.Filter(f => f.Bool(b => b.Must(m => m.And(a => a.Term(t => t.KeyValue("k1", 1).KeyValue("k2", 2).KeyValue("k3", 3)).And(a1 => a1.Term(t1 => t1.KeyValue("c1", 1).KeyValue("c2", 2))))))).BuildBeautiful();
+            //测试Range
+            //var result = creator.Filter(f => f.Bool(b => b.Range(r => r.Options(new RangeOptions
+            //{
+            //    BigValue = 2000,
+            //    Field = "year",
+            //    SmallValue = 1000,
+            //    GtWithEqual = true
+            //})))).BuildBeautiful();
+
+            //组合查询，还带query
+            var result = creator.Filter(f => f.Bool(b => b.Should(s => s.And(a => a.Term(t => t.KeyValue("bookid", 1)))))).BuildBeautiful();
             Console.WriteLine(result);
             Console.Read();
         }

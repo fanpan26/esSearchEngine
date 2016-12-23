@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Macrosage.ElasticSearch.Core.Filters
 {
-    public class BoolFilter : BaseFilter
+    public class BoolFilter : Filter
     {
         public BoolFilter() { }
 
@@ -82,6 +82,16 @@ namespace Macrosage.ElasticSearch.Core.Filters
         {
             PrapareCondition();
             _condition += termFunc(new TermFilter());
+            return this;
+        }
+        #endregion
+
+        #region Range
+
+        public BoolFilter Range(Func<RangeFilter, RangeFilter> rangeFunc)
+        {
+            PrapareCondition();
+            _condition += rangeFunc(new RangeFilter());
             return this;
         }
         #endregion

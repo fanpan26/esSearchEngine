@@ -33,6 +33,12 @@ namespace Macrosage.ElasticSearch.Core.Filters
 
         public const string _matchall = "{\"match_all\":{}}";
 
+        public const string _gt = "\"gt\":";
+        public const string _gte = "\"gte\":";
+        public const string _lt = "\"lt\":";
+        public const string _lte = "\"lte\":";
+
+
 
 
     }

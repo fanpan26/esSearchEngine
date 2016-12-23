@@ -49,6 +49,7 @@
     <Compile Include="Filters\ConditionConst.cs" />
     <Compile Include="Filters\Filter.cs" />
     <Compile Include="Filters\IdsFilter.cs" />
+    <Compile Include="Filters\RangeFilter.cs" />
     <Compile Include="Filters\TermFilter.cs" />
     <Compile Include="JsonBeautifier.cs" />
     <Compile Include="Page.cs" />
